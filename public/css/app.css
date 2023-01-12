@@ -641,8 +641,20 @@ select {
 .flex {
   display: flex;
 }
+.h-6 {
+  height: 1.5rem;
+}
 .w-24 {
   width: 6rem;
+}
+.w-\[300px\] {
+  width: 300px;
+}
+.w-6 {
+  width: 1.5rem;
+}
+.flex-1 {
+  flex: 1 1 0%;
 }
 .flex-col {
   flex-direction: column;
@@ -652,6 +664,9 @@ select {
 }
 .justify-center {
   justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
 }
 .gap-6 {
   gap: 1.5rem;
@@ -693,6 +708,21 @@ select {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.text-center {
+  text-align: center;
+}
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
@@ -700,6 +730,13 @@ select {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+.line-through {
+  text-decoration-line: line-through;
 }
 .antialiased {
   -webkit-font-smoothing: antialiased;
